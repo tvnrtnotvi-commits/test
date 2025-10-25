@@ -11,6 +11,8 @@ d = st.number_input("Enter spacing between plants (m):", min_value=0.1, value=1.
 
 st.markdown("##(not about trees)")
 
+
+from PIL import Image 
 img=Image.open('plantapp.PNG')
 st.image(img)
 
@@ -60,6 +62,7 @@ if st.button("Calculate"):
     
 
        
+
 
 
 
