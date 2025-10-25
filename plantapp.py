@@ -49,12 +49,12 @@ if st.button("Calculate"):
             minvalue = min_plants
 
 
-        st.success(f"**{maxvalue:.0f}** is the maximum plants your land can accommodate")
+        st.success(f"**{maxvalue:.0f}** is the maximum number of plants your land can accommodate")
 
     if min_plants != rev:
             st.success(f"For best use of area origin row should be along {a} m side.")
 
-    st.warning(f"Origin row along {b} m side will lead to {minvalue:.0f} plants.")
+    st.warning(f"Origin row along {b} m side will lead to {minvalue:.0f} plants only 🥀🥀.")
 
 
 from PIL import Image 
@@ -63,6 +63,7 @@ st.image(img)
 
 
        
+
 
 
 
