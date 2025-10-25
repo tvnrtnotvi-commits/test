@@ -53,8 +53,9 @@ if st.button("Calculate"):
 
     if min_plants != rev:
             st.success(f"For best use of area origin row should be along {a} m side.")
+         st.warning(f"Origin row along {b} m side will lead to {minvalue:.0f} plants only 🥀🥀.")
 
-    st.warning(f"Origin row along {b} m side will lead to {minvalue:.0f} plants only 🥀🥀.")
+   
 
 
 from PIL import Image 
@@ -63,6 +64,7 @@ st.image(img)
 
 
        
+
 
 
 
