@@ -12,9 +12,6 @@ d = st.number_input("Enter spacing between plants (m):", min_value=0.1, value=1.
 st.markdown("##(not about trees)")
 
 
-from PIL import Image 
-img=Image.open('plantapp.PNG')
-st.image(img)
 
 if st.button("Calculate"):
     if l <= 0 or w <= 0 or d <= 0:
@@ -59,9 +56,15 @@ if st.button("Calculate"):
             st.success(f"For best use of area origin row should be along {a} m side.")
 
     st.warning(f"Origin row along {b} m side will lead to {minvalue:.0f} plants.")
-    
+
+
+from PIL import Image 
+img=Image.open('plantapp.PNG')
+st.image(img)
+
 
        
+
 
 
 
