@@ -9,7 +9,7 @@ l = st.number_input("Enter side length (m):", min_value=0.0, value=3.0, step=0.1
 w = st.number_input("Enter other side length (m):", min_value=0.0, value=5.0, step=0.1)
 d = st.number_input("Enter spacing between plants (m):", min_value=0.1, value=1.0, step=0.1)
 
-st.markdown("##(not about trees)")
+st.markdown("###(not about trees)")
 
 
 
@@ -64,6 +64,7 @@ st.image(img)
 
 
        
+
 
 
 
