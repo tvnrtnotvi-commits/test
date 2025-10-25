@@ -4,7 +4,7 @@ import streamlit as st
 st.title("Plant Spacing")
 
 st.markdown("### Enter your land and spacing details:")
-st.markdown("###(not about trees)")
+st.markdown("###(not about plants)")
 
 l = st.number_input("Enter side length (m):", min_value=0.0, value=3.0, step=0.1)
 w = st.number_input("Enter other side length (m):", min_value=0.0, value=5.0, step=0.1)
@@ -63,6 +63,7 @@ st.image(img)
 
 
        
+
 
 
 
