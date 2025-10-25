@@ -9,6 +9,8 @@ l = st.number_input("Enter side length (m):", min_value=0.0, value=3.0, step=0.1
 w = st.number_input("Enter other side length (m):", min_value=0.0, value=5.0, step=0.1)
 d = st.number_input("Enter spacing between plants (m):", min_value=0.1, value=1.0, step=0.1)
 
+st.markdown("##(not about trees)")
+
 if st.button("Calculate"):
     if l <= 0 or w <= 0 or d <= 0:
         st.error("All values must be greater than 0.")
@@ -52,5 +54,7 @@ if st.button("Calculate"):
             st.success(f"For best use of area origin row should be along {a} m side.")
 
     st.warning(f"Origin row along {b} m side will lead to {minvalue:.0f} plants.")
+    
 
        
+
