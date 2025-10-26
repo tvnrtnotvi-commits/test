@@ -37,15 +37,15 @@ if st.button("Calculate"):
 
         st.success(f"**{maxvalue:.0f}** is the maximum number of plants your land can accommodate")
 
-     if rev > min :
-         st.success ("Your origin row should be along" ,b, "m side for best use of area.")
-         st.warning ("Origin row along" ,a, "m side will lead to",minvalue, "plants.")
+        
+        if rev > min :
+                st.success ("Your origin row should be along" ,b, "m side for best use of area.")
+                st.warning ("Origin row along" ,a, "m side will lead to",minvalue, "plants.")
+        else:
+                st.success ("Your origin row should be along" ,a, "m side for best use of area.")
+                st.warning ("Origin row along" ,b, "m side will lead to ",minvalue, "plants.")
+        
      
-    else:
-         st.success ("Your origin row should be along" ,a, "m side for best use of area.")
-     st.warning ("Origin row along" ,b, "m side will lead to ",minvalue, "plants.")
-     
-    
 
 
 from PIL import Image 
@@ -54,6 +54,7 @@ st.image(img)
 
 
        
+
 
 
 
