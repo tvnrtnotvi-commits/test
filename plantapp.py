@@ -39,7 +39,24 @@ if st.button("Calculate"):
         else:
                 st.success (f"Your origin row should be along  **{a}** m  side for best use of area.")
                 st.warning (f"Origin row along  **{b}** m  side will lead to  **{minvalue}**  plants.")
+
         
+        if rev = min :
+                st.note ("Same both ways")
+        else:
+                st.note()
+                
+        if a = b :
+                st.note("Square shaped land, same both ways)
+                        else:
+                st.note()
+                        
+                                
+                        
+
+
+
+
      
 
 
@@ -49,6 +66,7 @@ st.image(img)
 
 
        
+
 
 
 
