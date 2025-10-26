@@ -41,8 +41,8 @@ if st.button("Calculate"):
                 st.warning (f"Origin row along  **{b}** m  side will lead to  **{minvalue}**  plants.")
 
         
-        if rev == min :
-                st.note ("Same both ways")
+        if rev = min :
+                st.note ("Same both ways!")
         else:
                 st.write()
                 
@@ -55,6 +55,7 @@ st.image(img)
 
 
        
+
 
 
 
