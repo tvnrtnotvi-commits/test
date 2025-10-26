@@ -15,7 +15,7 @@ d = st.number_input("Enter spacing between plants (m):", min_value=0.1, value=1.
 if st.button("Calculate"):
 
         min = (((math.floor(a/d)+1)*((math.floor((2*b)/(math.sqrt(3)*d)))+1))-(math.floor(((math.floor((2*b)/(math.sqrt(3)*d)))+1)/2))*(1-math.floor((a/d)-(math.floor(a/d)))))
-        rev = (((math.floor(b/d)+1)*((math.floor((2*a)/(math.sqrt(3)*d)))+1))-(math.floor(((math.floor((2*a)/(math.sqrt(3)*d)))+1)/2))*(1-math.floor((a/d)-(math.floor(a/d)))))
+        rev = (((math.floor(b/d)+1)*((math.floor((2*a)/(math.sqrt(3)*d)))+1))-(math.floor(((math.floor((2*a)/(math.sqrt(3)*d)))+1)/2))*(1-math.floor((b/d)-(math.floor(b/d)))))
 
 
         if rev > min:
@@ -49,6 +49,7 @@ st.image(img)
 
 
        
+
 
 
 
