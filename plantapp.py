@@ -46,18 +46,7 @@ if st.button("Calculate"):
         else:
                 st.note()
                 
-        if a = b :
-                st.note("Square shaped land, same both ways")
-        else:
-                st.note()
-                        
-                                
-                        
 
-
-
-
-     
 
 
 from PIL import Image 
@@ -66,6 +55,7 @@ st.image(img)
 
 
        
+
 
 
 
