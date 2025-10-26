@@ -39,7 +39,9 @@ if st.button("Calculate"):
         else:
                 st.success (f"Your origin row should be along  **{a}** m  side for best use of area.")
                 st.warning (f"Origin row along  **{b}** m  side will lead to  **{minvalue}**  plants.")
-        if min == rev:
+
+        
+        if minvalue == maxvalue:
                 st.note("Same both ways!")
         else:
                 st.write("fcuk")
@@ -54,6 +56,7 @@ st.image(img)
 
 
        
+
 
 
 
