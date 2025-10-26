@@ -30,15 +30,15 @@ if st.button("Calculate"):
             minvalue = min
 
 
-        st.success(f"** {maxvalue:.0f} ** is the maximum number of plants your land can accommodate")
+        st.success(f"**{maxvalue:.0f}**  is the maximum number of plants your land can accommodate")
 
         
         if rev > min :
-                st.success (f"Your origin row should be along **{b}** m side for best use of area.")
-                st.warning (f"Origin row along **{a}** m side will lead to **{minvalue}** plants.")
+                st.success (f"Your origin row should be along  **{b}** m  side for best use of area.")
+                st.warning (f"Origin row along  **{a}** m  side will lead to  **{minvalue}**  plants.")
         else:
-                st.success (f"Your origin row should be along **{a}** m side for best use of area.")
-                st.warning (f"Origin row along **{b}** m side will lead to **{minvalue}** plants.")
+                st.success (f"Your origin row should be along  **{a}** m  side for best use of area.")
+                st.warning (f"Origin row along  **{b}** m  side will lead to  **{minvalue}**  plants.")
         
      
 
@@ -49,6 +49,7 @@ st.image(img)
 
 
        
+
 
 
 
