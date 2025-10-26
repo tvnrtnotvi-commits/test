@@ -42,7 +42,7 @@ if st.button("Calculate"):
 
         
         if minvalue == maxvalue:
-                st.note("Same both ways!")
+                st.write("Same both ways!")
         else:
                 st.write("fcuk")
                 
@@ -56,6 +56,7 @@ st.image(img)
 
 
        
+
 
 
 
