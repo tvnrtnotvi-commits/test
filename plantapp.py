@@ -40,13 +40,16 @@ if st.button("Calculate"):
                 st.success (f"Your origin row should be along  **{a}** m  side for best use of area.")
                 st.warning (f"Origin row along  **{b}** m  side will lead to  **{minvalue}**  plants.")
 
-        
-        if rev == min :
-                st.note (f"Same both ways!")
+
+ if rev == min :
+                st.note ("Same both ways!")
         else:
                 st.write()
                 
 
+
+        
+       
 
 
 from PIL import Image 
@@ -55,6 +58,7 @@ st.image(img)
 
 
        
+
 
 
 
