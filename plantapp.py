@@ -47,7 +47,7 @@ if st.button("Calculate"):
                 st.note()
                 
         if a = b :
-                st.note("Square shaped land, same both ways)
+                st.note("Square shaped land, same both ways")
         else:
                 st.note()
                         
@@ -66,6 +66,7 @@ st.image(img)
 
 
        
+
 
 
 
