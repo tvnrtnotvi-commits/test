@@ -44,7 +44,7 @@ if st.button("Calculate"):
         if rev == min :
                 st.note ("Same both ways")
         else:
-                st.note()
+                st.write()
                 
 
 
@@ -55,6 +55,7 @@ st.image(img)
 
 
        
+
 
 
 
